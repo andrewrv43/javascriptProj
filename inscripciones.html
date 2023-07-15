@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Crea Tu Equipo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-SPORTS Ecuador - Mobile Legends</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+  <header>
+    <div>
+      <div class="main">
+    <img src="images/logo.png" alt="Logo de Mobile Legends" height="100px">
+  </div class="content">
+    <h2>¡Bienvenido a la Liga de Mobile Legends: Bang Bang! Ecuador</h2>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link texto" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link texto" href="inscripciones.html">Inscripcion</a>
+            <a class="nav-link texto" href="fechas.html">Fechas del concurso</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  </header>
+
+
+  <div class="section-title"> <h1>CREA TU EQUIPO Y TEN BATALLAS EPICAS EN LA TIERRA DEL AMANECER</h1></div>
+
+<div class="unForm">  
+  <div class="requisitos">
+    <h3>A continuacion debes completar el siguiente formulario</h3>
+    <h4>Recuerda cumplir con los siguientes requisitos:</h4>
+    <ul>
+      <li>COLOCA SOLO EL ID DE CUENTA DE LOS PARTICIPANTES</li>
+      <li>TENER MINIMO 5 PARTICIPANTES</li>
+      <li>TENER MAXIMO 2 SUPLENTES</li>
+      <li>TENER ENTRE 12-16 AÑOS</li>
+    </ul>
+  </div>
+
+<div class="elForm">
+  <form id="myForm" onsubmit="return validarFormulario(event)">
+    <div id="inputContainer">
+      <input type="text" name="Participante 1" placeholder="Participante 1" required><br>
+      <input type="text" name="Participante 2" placeholder="Participante 2" required><br>
+      <input type="text" name="Participante 3" placeholder="Participante 3" required><br>
+      <input type="text" name="Participante 4" placeholder="Participante 4" required><br>
+      <input type="text" name="Participante 5" placeholder="Participante 5" required><br>
+    </div>
+    <button type="button" id="agregar" onclick="agregarInput()">Agregar input</button>
+    <button type="button" id="eliminar" onclick="eliminarInput()">Eliminar input</button>
+    <br><br>
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+</div>
+  
+
+  <script src="/javascript/forms.js"></script>
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/" target="_blank"><img src="/images/facebook.jpg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="/images/instagram.svg" alt="Instagram"></a>
+      <a href="https://www.tiktok.com/" target="_blank"><img src="/images/tiktok.png" alt="TikTok"></a>
+    </div>
+  </footer>
+</body>
+</html>

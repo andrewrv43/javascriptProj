@@ -1,0 +1,53 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+
+  }
+
+  th {
+    background-color: #ffcc00;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .fase-table {
+    margin-bottom: 20px;
+    border: 2px solid #ffcc00;
+  }
+
+  .fase-table th {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .fase-table td {
+    padding: 10px;
+  }
+
+  .eventos-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .eventos-list li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .gran-final {
+    background-color: #ff5500;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+  }
